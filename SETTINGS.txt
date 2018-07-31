@@ -6,13 +6,13 @@
 # GENERAL SERVER SETTINGS #
 
     # Enter here your Discord API Token you'll get from here: https://discordapp.com/developers/applications/me
-        TOKEN = "NDczNDI2MjQ3MjQ3MjAwMjY2.DkGxhg.paWpQ6ix1lS6_t-hGgZc5salTeo"
+        TOKEN = "process.env.BOT_TOKEN"
     # Prefix to send bot commands (like -help or ~help or .help, what ever you want)
         CMD_PREFIX = "<"
     # ID of your discord account to identify who is the owner / host of this bot
         BOT_OWNER_ID = 319731924249870337
     # Custom message shown as "Now Playing: ..." text
-        CUSTOM_PLAYING_MESSAGE = "???"
+        CUSTOM_PLAYING_MESSAGE = "<help | coded by alexandaaaa"
     # Log entered command in console of the bot
         COMMAND_CONSOLE_OUTPUT = true
     # Automatically check for updates
@@ -62,5 +62,5 @@
        # Message, that appears, if user joins discord first time
        # "[USER]" stand for the @user - mention
        # "[GUILD]" stand for the guild name
-           DISCORD_JOIN_MESSAGE = ":heart: Hey, [USER]! Willkommen auf dem [GUILD] Server! :heart:"
+           DISCORD_JOIN_MESSAGE = ":zap: Hey, [USER]! Willkommen auf dem [GUILD] Server! :zap:"
 
